@@ -28,15 +28,11 @@ function Techstack() {
           <Box icon={<Docker />} />
           <Box icon={<EC2 />} />
           <Box icon={<ReactIcon />} />
-        </div>
-        <div className="techstack-container">
           <Box icon={<PGSQL />} />
           <Box icon={<Redux />} />
           <Box icon={<Figma />} />
           <Box icon={<PHP />} />
           <Box icon={<GitLab />} />
-        </div>
-        <div className="techstack-container">
           <Box icon={<MySQL />} />
           <Box icon={<VSC />} />
           <Box icon={<MongoDB />} />

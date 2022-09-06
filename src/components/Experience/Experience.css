@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:600,800');
 
-html,
 body {
-  width: 100%;
-  height: 100%;
+  overflow-x: hidden;
 }
 
 .experience-container {
@@ -58,6 +56,25 @@ body {
 
 .duration {
   font-size: 20px;
+}
+
+/*
+  media queries
+*/
+@media screen and (max-width: 769px) {
+  .secondary-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1441px) {
+  .secondary-container {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+  }
 }
 
 @keyframes primary-load {

@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:600,800');
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
 .main-container {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -29,4 +23,35 @@ body {
   display: flex;
   gap: 65px;
   padding-bottom: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+/*
+  media queries
+*/
+@media screen and (max-width: 426px) {
+  .techstack-container {
+    flex-direction: column;
+    white-space: initial;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  .techstack-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1441px) {
+  .techstack-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

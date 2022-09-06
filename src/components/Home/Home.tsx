@@ -7,7 +7,7 @@ function Home() {
     <>
       <div className="primary-container" id="home">
         <div className="text-container">
-          <p className="level1">Hi,</p>
+          <p className="level1">Hi!</p>
           <div className="name-container">
             <p className="level1">My name is </p>
             <div className="name">Zi Hang.</div>
@@ -19,7 +19,7 @@ function Home() {
           </div>
           <div className="button-container-home">
             <button
-              className="button"
+              className="home-button"
               onClick={() => {
                 window.location.href = 'mailto:zihang.lee@gmail.com';
               }}
@@ -29,7 +29,7 @@ function Home() {
           </div>
         </div>
         <div className="image-container">
-          <Poseidon />
+          <Poseidon className="poseidon" />
         </div>
       </div>
     </>
