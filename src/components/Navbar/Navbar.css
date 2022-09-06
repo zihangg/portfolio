@@ -16,6 +16,7 @@
   color: #3b5249;
   font-weight: 800;
   font-size: 20px;
+  animation: nav-load 400ms ease-in;
 }
 
 .navbar ul {
@@ -56,4 +57,14 @@
   outline: 2px solid #3b5249;
   color: #3b5249;
   cursor: pointer;
+}
+
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }

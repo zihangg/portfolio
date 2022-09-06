@@ -17,11 +17,15 @@
   align-items: center;
   justify-content: center;
   gap: 300px;
+  animation: primary-load 1s;
 }
 
 .experience {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-size: 40px;
+  animation: primary-load 1s;
 }
 
 .card {
@@ -48,4 +52,14 @@
 
 .duration {
   font-size: 20px;
+}
+
+@keyframes primary-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }

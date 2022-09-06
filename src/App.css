@@ -1,16 +1,6 @@
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
 .container {
   background-color: #bec5ad;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  animation: slideInFromLeft 300ms;
 }
