@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:600,800');
+
+.experience-container {
+  display: inline-block;
+  background-color: #34252f;
+  font-family: 'Inter';
+  font-weight: 800;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: -55px;
+}
+
+.secondary-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+
+.experience {
+  text-align: center;
+  font-size: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-bewteen;
+}
+
+.card p {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.job-title {
+  font-size: 40px;
+}
+
+.company {
+  font-size: 20px;
+}
+
+.duration {
+  font-size: 20px;
+}

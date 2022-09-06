@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:600,800');
+
+.main-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.techstack-title {
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 40px;
+  color: #fff;
+  align-text: center;
+  padding-bottom: 50px;
+}
+
+.techstack-container {
+  padding-top: 20px;
+  display: flex;
+  gap: 65px;
+  padding-bottom: 40px;
+}
