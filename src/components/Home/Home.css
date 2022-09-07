@@ -94,7 +94,7 @@ body {
 /*
   media queries
 */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .text-container {
     margin-top: 1rem;
     padding: 0;
@@ -128,16 +128,54 @@ body {
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 769px) {
-  .level1 .name {
-    font-size: 60px;
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  .primary-container {
+    margin-bottom: -300px;
+    justify-content: center;
+  }
+
+  .level1 {
+    font-size: 30px;
   }
 
   .level2 {
-    font-size: 34px;
+    font-size: 18px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .text-container {
+    padding-top: 10rem;
+    padding-left: 3rem;
+    padding-bottom: 10rem;
+    font-family: 'Inter';
+    color: #fff;
+  }
+
+  .image-container {
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name-container {
+    display: flex;
+  }
+
+  .poseidon {
+    width: 300px;
+    align-self: flex-end;
+  }
+  #b {
+    height: 700px;
+    width: 1000px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1837px) {
+
+@media screen and (min-width: 1000px) and (max-width: 1837px) {
   .primary-container {
     margin-bottom: -226px;
     justify-content: center;
